@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "$root/*": ["*"],
+      "$src/*": ["src/*"],
+      "$models/*": ["src/db/models/*"],
+      "$controllers/*": ["src/controllers/*"],
+      "$db/*": ["src/db/*"]
+    }
+  }
+}
